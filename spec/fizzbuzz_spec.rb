@@ -18,4 +18,8 @@ describe "FizzBuzz" do
     expect(FizzBuzz.new.fizzbuzz(0)).to eq('Err')
     expect(FizzBuzz.new.fizzbuzz(-2)).to eq('Err')
   end
+
+  it "should puts num self" do
+	  expect(FizzBuzz.new.fizzbuzz(1)).to eq('1')
+  end
 end
